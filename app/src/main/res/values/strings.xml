@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Vizbl Demo</string>
+
+    <string name="main_getting_started_category">Getting started</string>
+    <string name="main_shop_integration_category">Shop integration</string>
+    <string name="main_configuration_lab_category">Configuration lab</string>
+    <string name="main_advanced_category">Advanced</string>
+    <string name="manage_sheet_add_object_category">Add object to AR</string>
+    <string name="manage_sheet_placed_objects_category">Placed objects</string>
+    <string name="config_view_config_category">ARViewConfiguration</string>
+    <string name="config_object_config_category">ARObjectConfiguration</string>
+
+    <string name="main_quick_start_title">Quick Start</string>
+    <string name="main_quick_start_body">Open AR with one object and default settings</string>
+
+    <string name="main_shop_preview_title">Shop Preview</string>
+    <string name="main_shop_preview_body">Typical store flow: preview, favorites and buy actions</string>
+
+    <string name="main_configuration_lab_title">Configuration Lab</string>
+    <string name="main_configuration_lab_body">Tune AR behavior and object interaction settings</string>
+
+    <string name="main_object_actions_title">Object Actions</string>
+    <string name="main_object_actions_body">Replace, remove, modes and error handling</string>
+
+    <string name="main_deeplink_qr_title">Deeplink (QR)</string>
+    <string name="main_deeplink_qr_body">Listen to deeplink events and route inside the app</string>
+
+    <string name="shop_preview_catalog_category">Catalog</string>
+    <string name="shop_preview_mode_category">Mode</string>
+
+    <string name="action_category">Action</string>
+
+    <string name="store_title">Store integration</string>
+    <string name="add_manage_title">Add / Manage</string>
+
+    <!--  Quick Start Screen  -->
+    <string name="quick_start_headline">Minimal</string>
+    <string name="quick_start_title">Minimal integration example</string>
+    <string name="quick_start_body">One object, default configuration.</string>
+    <string name="quick_start_button">Open AR</string>
+
+    <!--  Object Actions Screen  -->
+    <string name="advanced_headline">Advanced</string>
+    <string name="advanced_info_category">What this demo covers</string>
+    <string name="advanced_mode_category">Mode</string>
+    <string name="advanced_available_in_ar_category">Available in AR (via Panel)</string>
+
+    <string name="advanced_add_button_title">Add</string>
+    <string name="advanced_add_button_body">Add a selected object to AR</string>
+
+    <string name="advanced_replace_title">Replace</string>
+    <string name="advanced_replace_body">Replace the selected object or clear all</string>
+
+    <string name="advanced_remove_title">Remove</string>
+    <string name="advanced_remove_body">Remove selected object or clear all</string>
+
+    <string name="advanced_error_title">Error demo</string>
+    <string name="advanced_error_body">Simulate an add error and handle it</string>
+
+    <string name="advanced_available_in_ad_info">Open AR first. In AR, tap Panel (bottom-right) to run actions.</string>
+    <string name="advanced_info">This example demonstrates object actions available via ARViewController: add, replace, remove and error handling.</string>
+
+    <string name="advanced_open_ar_button">Open AR</string>
+</resources>
