@@ -19,8 +19,8 @@ dependencyResolutionManagement {
         maven {
             url = uri("https://maven.pkg.github.com/VIZBL/vizbl-android-sdk")
             credentials {
-                username = "sane4ekage"
-                password = "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"
+                username = providers.gradleProperty("gpr.user").orNull ?: System.getenv("GITHUB_ACTOR")
+                password = providers.gradleProperty("gpr.key").orNull ?: System.getenv("GITHUB_TOKEN")
             }
         }
     }
