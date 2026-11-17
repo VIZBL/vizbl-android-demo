@@ -13,6 +13,15 @@ The app demonstrates how to launch AR and load Vizbl objects using a `tinuuid`.
 
 All AR logic, placement, and interaction are handled by the SDK.
 
+## GitHub Packages access
+
+The SDK is downloaded from GitHub Packages, which needs a GitHub token with the `read:packages` scope even for public packages. Put it in `~/.gradle/gradle.properties`, not in the project:
+
+```properties
+gpr.user=YOUR_GITHUB_USERNAME
+gpr.key=YOUR_GITHUB_TOKEN
+```
+
 ## How to run
 
 1. Clone the repository:
