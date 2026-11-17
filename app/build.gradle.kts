@@ -54,5 +54,5 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.compose.material.icons.extended)
 
-    implementation("com.us.vizbl.ar.sdk:ar-sdk:0.1")
+    implementation("com.vizbl:ar-sdk:0.2")
 }

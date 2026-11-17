@@ -13,15 +13,6 @@ The app demonstrates how to launch AR and load Vizbl objects using a `tinuuid`.
 
 All AR logic, placement, and interaction are handled by the SDK.
 
-## GitHub Packages access
-
-The SDK is downloaded from GitHub Packages, which needs a GitHub token with the `read:packages` scope even for public packages. Put it in `~/.gradle/gradle.properties`, not in the project:
-
-```properties
-gpr.user=YOUR_GITHUB_USERNAME
-gpr.key=YOUR_GITHUB_TOKEN
-```
-
 ## How to run
 
 1. Clone the repository:
@@ -32,9 +23,11 @@ git clone https://github.com/VIZBL/vizbl-android-demo.git
 
 2. Open the project in Android Studio
 
-3. Replace the `tinuuid` in the demo code with your own
+3. The demo ships with a few public Vizbl models, so it works as is. To show your own products, replace the Object IDs in the screens under `app/src/main/java/com/us/vizbl/ar/sdk/demo/ui/screens/` with IDs from your Vizbl library
 
-4. Run the app on a real device
+4. Run the app on a physical device with ARCore support (the emulator does not run AR)
+
+The SDK comes from Maven Central as `com.vizbl:ar-sdk:0.2`; no tokens or extra repositories are needed. Requires Android Studio with JDK 17 and a device on Android 8.1 (API 27) or newer.
 
 ## Notes
 
